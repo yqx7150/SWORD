@@ -3,7 +3,8 @@
 **Paper**: Stage-by-stage Wavelet Optimization Refinement Diffusion Model for Sparse-View CT Reconstruction           
 
 **Authors**: Kai Xu; Shiyu Lu; Bin Huang; Weiwen Wu; Qiegen Liu          
-
+https://ieeexplore.ieee.org/abstract/document/10403850   
+IEEE Transactions on Medical Imaging    
 
 ## Training
 wavelet-based full-frequency diffusion model (WFDM)
