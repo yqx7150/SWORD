@@ -7,12 +7,12 @@ https://ieeexplore.ieee.org/abstract/document/10403850
 IEEE Transactions on Medical Imaging    
 
 ## Training
-wavelet-based full-frequency diffusion model (WFDM)
+Wavelet-based Full-frequency Diffusion Model (WFDM)
 ```bash
 python main_wavelet.py --config=aapm_sin_ncsnpp_wavelet.py --workdir=exp_wavelet --mode=train --eval_folder=result
 ```
 
-wavelet-based high-frequency diffusion model (WHDM)
+Wavelet-based High-frequency Diffusion Model (WHDM)
 ```bash
 python main_3h.py --config=aapm_sin_ncsnpp_3h.py --workdir=exp_3h --mode=train --eval_folder=result
 ```
