@@ -4,8 +4,7 @@ import sys
 ##################################################################
 import sampling as sampling
 from sampling import ReverseDiffusionPredictor,LangevinCorrector,AnnealedLangevinDynamics ,EulerMaruyamaPredictor,AncestralSamplingPredictor
-import aapm_sin_ncsnpp_3h as configs_3h  # 修改config
-# import aapm_sin_ncsnpp_gb as configs_A
+import aapm_sin_ncsnpp_3h as configs_3h  
 import aapm_sin_ncsnpp_wavelet as configs_A
 ##################################################################
 
@@ -91,7 +90,7 @@ for predict in predicts:
       state = restore_checkpoint(ckpt_filename_3h, state, config_3h.device)
       ema.copy_to(h3_model.parameters())
 
-      # 3l model
+      # wavelet model
       batch_size = 1 #@param {"type":"integer"}
       config_A.training.batch_size = batch_size
       config_A.eval.batch_size = batch_size
