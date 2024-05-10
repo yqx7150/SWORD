@@ -40,5 +40,8 @@ In file './Test_CT', 12 sparse-view CT data from AAPM Challenge Data Study.
   * One Sample Diffusion Model in Projection Domain for Low-Dose CT Imaging  
 [<font size=5>**[Paper]**</font>](https://ieeexplore.ieee.org/abstract/document/10506793)   [<font size=5>**[Code]**</font>](https://github.com/yqx7150/OSDM)
 
+  * Wavelet-improved score-based generative model for medical imaging  
+[<font size=5>**[Paper]**</font>](https://ieeexplore.ieee.org/abstract/document/10288274)       
+       
   * 基于深度能量模型的低剂量CT重建  
 [<font size=5>**[Paper]**</font>](http://cttacn.org.cn/cn/article/doi/10.15953/j.ctta.2021.077)   [<font size=5>**[Code]**</font>](https://github.com/yqx7150/EBM-LDCT)  
