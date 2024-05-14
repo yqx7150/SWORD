@@ -6,6 +6,23 @@
 https://ieeexplore.ieee.org/abstract/document/10403850   
 IEEE Transactions on Medical Imaging    
 
+The code and the algorithm are for non-comercial use only.
+Copyright 2024, School of Information Engineering, Nanchang University.
+
+Diffusion model has emerged as a potential tool to tackle the challenge of sparse-view CT reconstruction, displaying superior performance compared to conventional methods. Nevertheless, these prevailing diffusion models predominantly focus on the sinogram or image domains, which can lead to instability during model training, potentially culminating in convergence towards local minimal solutions. The wavelet transform serves to disentangle image contents and features into distinct frequency-component bands at varying scales, adeptly capturing diverse directional structures. Employing the wavelet transform as a guiding sparsity prior significantly enhances the robustness of diffusion models. In this study, we present an innovative approach named the Stage-by-stage Wavelet Optimization Refinement Diffusion (SWORD) model for sparse-view CT reconstruction. Specifically, we establish a unified mathematical model integrating low-frequency and high-frequency generative models, achieving the solution with an optimization procedure. Furthermore, we perform the low-frequency and high-frequency generative models on wavelet’s decomposed components rather than the original sinogram, ensuring the stability of model training. Our method is rooted in established optimization theory, comprising three distinct stages, including low-frequency generation, high-frequency refinement and domain transform. The experimental results demonstrated that the proposed method outperformed existing state-of-the-art methods both quantitatively and qualitatively.
+
+## The SWORD training process
+![fig1](src/fig1.png)
+
+   
+## The pipeline of iterative reconstruction procedure in SWORD
+![fig2](src/fig2.png)
+
+
+## Reconstruction images from 60 views using different methods.
+![fig3](src/fig3.png)
+## (a) The reference image, (b) FBP, (c) U-Net, (d) FBPConvNet, (e) patch-based DDPM, (f) GMSD, (g) SWORD. 
+
 ## Training
 Wavelet-based Full-frequency Diffusion Model (WFDM)
 ```bash
