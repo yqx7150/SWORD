@@ -21,7 +21,7 @@ Diffusion model has emerged as a potential tool to tackle the challenge of spars
 
 ## Reconstruction images from 60 views using different methods.
 ![fig3](src/fig3.png)
-## (a) The reference image, (b) FBP, (c) U-Net, (d) FBPConvNet, (e) patch-based DDPM, (f) GMSD, (g) SWORD. 
+(a) The reference image, (b) FBP, (c) U-Net, (d) FBPConvNet, (e) patch-based DDPM, (f) GMSD, (g) SWORD. 
 
 ## Training
 Wavelet-based Full-frequency Diffusion Model (WFDM)
